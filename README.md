@@ -270,10 +270,10 @@ npm run prisma:generate
 
 # Run database migrations (creates the User/Creator/Donation and
 # AdminAuditLog tables). Migrations are tracked in backend/prisma/migrations/.
+npx prisma migrate dev
 
-
-
-npx prisma migrate dev# Note: `db push` is only acceptable for throwaway prototyping.# For development, staging, and production, always use `migrate dev`/`migrate deploy`.
+# Note: `db push` is only acceptable for throwaway prototyping.
+# For development, staging, and production, always use `migrate dev`/`migrate deploy`.
 
 # Start the development server
 npm run dev
