@@ -273,7 +273,7 @@ npm run prisma:generate
 
 
 
-npx prisma migrate dev
+npx prisma migrate dev# Note: `db push` is only acceptable for throwaway prototyping.# For development, staging, and production, always use `migrate dev`/`migrate deploy`.
 
 # Start the development server
 npm run dev
